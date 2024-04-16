@@ -1,5 +1,7 @@
 import React from 'react'
 import Navbar from './Navbar'
+import Image from 'next/image';
+
 
 function MyApp() {
     return (
@@ -54,7 +56,7 @@ function MyApp() {
                     </div>
 
                     <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                        <img className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="glasses photo" />
+                        <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="glasses photo" />
                     </div>
                 </div>
             </section>
@@ -63,7 +65,7 @@ function MyApp() {
             <section className="container mx-auto py-12 flex items-center">
                 <div className="container p-6 mx-auto lg:flex lg:justify-between lg:items-center">
                     <div className="w-full lg:w-1/2 mb-6 lg:mb-0">
-                        <img src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="About Us" className="w-full rounded-md" />
+                        <Image src="https://images.pexels.com/photos/1181271/pexels-photo-1181271.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="About Us" className="w-full rounded-md" />
                     </div>
                     <div className="w-full lg:w-1/2 pl-0 lg:pl-12">
                         <h2 className="text-3xl font-bold text-gray-800 dark:text-white mb-4">About Us</h2>
@@ -82,7 +84,7 @@ function MyApp() {
                     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                         {/* Portfolio Item 1 */}
                         <div className="bg-white dark:bg-gray-900 shadow-md rounded-md overflow-hidden">
-                            <img src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 1" className="w-full h-64 object-cover" />
+                            <Image src="https://images.pexels.com/photos/1181298/pexels-photo-1181298.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 1" className="w-full h-64 object-cover" />
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Project 1</h3>
                                 <p className="text-gray-600 dark:text-gray-300">This project showcases our expertise in building robust web applications with modern technologies. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec ante ut quam.</p>
@@ -91,7 +93,7 @@ function MyApp() {
                         </div>
                         {/* Portfolio Item 2 */}
                         <div className="bg-white dark:bg-gray-900 shadow-md rounded-md overflow-hidden">
-                            <img src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 2" className="w-full h-64 object-cover" />
+                            <Image src="https://images.pexels.com/photos/1181671/pexels-photo-1181671.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 2" className="w-full h-64 object-cover" />
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Project 2</h3>
                                 <p className="text-gray-600 dark:text-gray-300">Our team excels in crafting visually stunning user interfaces with seamless user experiences. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec ante ut quam.</p>
@@ -100,7 +102,7 @@ function MyApp() {
                         </div>
                         {/* Portfolio Item 3 */}
                         <div className="bg-white dark:bg-gray-900 shadow-md rounded-md overflow-hidden">
-                            <img src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 3" className="w-full h-64 object-cover" />
+                            <Image src="https://images.pexels.com/photos/11035471/pexels-photo-11035471.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Project 3" className="w-full h-64 object-cover" />
                             <div className="p-4">
                                 <h3 className="text-xl font-semibold text-gray-800 dark:text-white mb-2">Project 3</h3>
                                 <p className="text-gray-600 dark:text-gray-300">Our portfolio demonstrates our commitment to delivering high-quality solutions tailored to our clients' unique needs. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam nec ante ut quam.</p>
