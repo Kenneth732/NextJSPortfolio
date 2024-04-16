@@ -56,7 +56,11 @@ function MyApp() {
                     </div>
 
                     <div className="flex items-center justify-center w-full h-96 lg:w-1/2">
-                        <Image className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" alt="glasses photo" />
+<Image 
+  className="object-cover w-full h-full mx-auto rounded-md lg:max-w-2xl" 
+  src="https://images.unsplash.com/photo-1543269664-7eef42226a21?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80" 
+  alt="glasses photo" 
+/>
                     </div>
                 </div>
             </section>
